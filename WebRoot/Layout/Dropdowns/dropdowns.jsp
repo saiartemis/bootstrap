@@ -15,6 +15,13 @@
 <script src="<%=path%>/Js/bootstrap.min.js"></script>
 </head>
 <body>
+	<!-- 
+	下拉菜单 
+	1.div里面添加class="dropdown"。
+	2.需要下拉的模块添加下拉触发器 data-toggle="dropdown"
+	3.选项卡 dropdown-menu
+	4.dropdown-header 选项标题
+	-->
 	<div class="dropdown">
 		<button type="button" class="btn dropdown-toggle" id="dropdownMenu1"
 			data-toggle="dropdown">
