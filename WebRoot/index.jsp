@@ -12,9 +12,9 @@ pageContext.setAttribute("basePath",basePath);
 <html>
 <head>
    <title>在线尝试 Bootstrap 实例</title>
-   <link href="<%=path %>/css/bootstrap.min.css" rel="stylesheet">
-   <script src="<%=path %>/js/jquery.min.js"></script>
-   <script src="<%=path %>/js/bootstrap.min.js"></script>
+   <link href="<%=path %>/Css/bootstrap.min.css" rel="stylesheet">
+   <script src="<%=path %>/Js/jquery.min.js"></script>
+   <script src="<%=path %>/Js/bootstrap.min.js"></script>
 </head>
 <body>
 
