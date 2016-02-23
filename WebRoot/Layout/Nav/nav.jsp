@@ -56,5 +56,54 @@
       </ul>
    </div>
 </nav>
+<!-- 响应式的导航栏 -->
+<nav class="navbar navbar-default" role="navigation">
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" 
+         data-target="#example-navbar-collapse">
+         <span class="sr-only">切换导航</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">W3Cschool</a>
+   </div>
+   <div class="collapse navbar-collapse" id="example-navbar-collapse">
+      <ul class="nav navbar-nav">
+         <li class="active"><a href="#">iOS</a></li>
+         <li><a href="#">SVN</a></li>
+         <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+               Java <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+               <li><a href="#">jmeter</a></li>
+               <li><a href="#">EJB</a></li>
+               <li><a href="#">Jasper Report</a></li>
+               <li class="divider"></li>
+               <li><a href="#">分离的链接</a></li>
+               <li class="divider"></li>
+               <li><a href="#">另一个分离的链接</a></li>
+            </ul>
+         </li>
+      </ul>
+   </div>
+</nav>
+<br>
+<!-- 导航栏中表单 -->
+
+<nav class="navbar navbar-default" role="navigation">
+   <div class="navbar-header">
+      <a class="navbar-brand" href="#">W3Cschool</a>
+   </div>
+   <div>
+      <form class="navbar-form navbar-left" role="search">
+         <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+         </div>
+         <button type="submit" class="btn btn-default">提交</button>
+      </form>    
+   </div>
+</nav>
 </body>
 </html>
