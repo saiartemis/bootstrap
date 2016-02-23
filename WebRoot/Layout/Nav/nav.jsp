@@ -25,10 +25,36 @@
    <li><a href="#">PHP</a></li>
 </ul>
 <!-- 导航栏
-	
-
-
-
+	1.向 <nav> 标签添加 class .navbar、.navbar-default
+	2.向上面的元素添加 role="navigation"，有助于增加可访问性
+	3.向 <div> 元素添加一个标题 class .navbar-header，内部包含了带有 class navbar-brand 的 <a> 元素。这会让文本看起来更大一号。
+	4.为了向导航栏添加链接，只需要简单地添加带有 class .nav、.navbar-nav 的无序列表即可。
  -->
+ <nav class="navbar navbar-default" role="navigation">
+   <div class="navbar-header">
+      <a class="navbar-brand" href="#">W3Cschool</a>
+   </div>
+   <div>
+      <ul class="nav navbar-nav">
+         <li class="active"><a href="#">iOS</a></li>
+         <li><a href="#">SVN</a></li>
+         <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+               Java 
+               <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+               <li><a href="#">jmeter</a></li>
+               <li><a href="#">EJB</a></li>
+               <li><a href="#">Jasper Report</a></li>
+               <li class="divider"></li>
+               <li><a href="#">分离的链接</a></li>
+               <li class="divider"></li>
+               <li><a href="#">另一个分离的链接</a></li>
+            </ul>
+         </li>
+      </ul>
+   </div>
+</nav>
 </body>
 </html>
